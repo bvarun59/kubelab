@@ -52,7 +52,7 @@ IN SERVICE MANIFEST FILE should be same , bcz service will apply for these label
 if you use type as ClusterIP, then you cant access outside , since its a private cluster network
 for this to work again you have to map and execute 
 
-
+for visual binding 
 minikube service myservice -n demodeployment
 
 ssh -L 30080:192.168.49.2:30080 varun@192.168.0.110
